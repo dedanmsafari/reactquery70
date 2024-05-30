@@ -39,7 +39,7 @@ const Products = () => {
       </button>
       <br />
       <p>Selected Product:</p>
-      {JSON.stringify(productData?.name)}
+      {JSON.stringify(productData)}
     </>
   );
 };
